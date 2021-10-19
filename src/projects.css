@@ -1,0 +1,47 @@
+.portMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: solid black 1px; */
+    /* background-color: blue; */
+    contain: content;
+    padding: 2% 0;
+    padding: 50px 0;
+  }
+  
+  .eachProject{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(223, 223, 223);
+    /* border: 1px black solid; */
+    contain: content;
+    border-radius: 3px;
+    box-shadow: 6px 6px 20px -10px black;
+  }
+  
+  .eachProject h1{
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .eachProject a{
+    margin-top: auto;
+    
+  }
+  
+  .eachProject button{
+    /* margin: 0 auto; */
+    cursor: pointer;
+  }
+  
+  .eachProject img{
+    max-width: 300px;
+    margin-bottom: auto;
+  }

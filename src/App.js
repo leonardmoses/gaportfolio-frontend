@@ -20,11 +20,15 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/projects">
-          <Projects URL={URL} />
-        </Route>
         <Route path="/about">
-          <About URL={URL} />
+          <div className="aboutMainDiv">
+            <About URL={URL} />
+          </div>
+        </Route>
+        <Route path="/projects">
+          <div className="portMainDiv">
+            <Projects URL={URL} />
+          </div>
         </Route>
       </Switch>
       <Footer />

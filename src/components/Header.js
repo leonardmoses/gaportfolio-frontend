@@ -5,10 +5,12 @@ function Header(props) {
   const navStyle = {
     display: "flex",
     justifyContent: "space-around",
-    border: "3px solid black",
+    border: "3px solid darkblue",
+    borderRadius: "20px",
     padding: "8px",
     width: "90%",
     margin: "auto",
+    aDecoration: "none",
   }
 
     return (

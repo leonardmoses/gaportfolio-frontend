@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-header > div{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: linear-gradient(rgb(227, 227, 227), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(83, 83, 143);
+}
+
+a:visited {
+  color: rgb(127, 127, 196);
+}
+
+a:hover {
+  color: rgb(127, 196, 155);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(0, 0, 62);
+  background-image: linear-gradient(180deg, #66d1f2, #200082);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
