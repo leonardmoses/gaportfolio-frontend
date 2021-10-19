@@ -14,8 +14,8 @@ function Footer(props) {
       <header>
         <nav style={navStyle}>
         <a href="https://github.com/leonardmoses" target="#">gitHub</a>
-        <a href="https://www.linkedin.com/in/leonard-moses/" target="#">Linkedin</a>
-        <a href="http://www.anemote.com/" target="#">AnEmote</a>
+        <a href="https://www.linkedin.com/in/leonard-moses/" target="#2">Linkedin</a>
+        <a href="http://www.anemote.com/" target="#3">AnEmote</a>
         </nav>
       </header>
     )
