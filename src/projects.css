@@ -16,6 +16,7 @@
     width: 50%;
     max-width: 300px;
     margin: 0 auto;
+    margin-bottom: 30px;
     justify-content: space-between;
     background-color: rgb(223, 223, 223);
     /* border: 1px black solid; */
@@ -33,7 +34,6 @@
   
   .eachProject a{
     margin-top: auto;
-    
   }
   
   .eachProject button{

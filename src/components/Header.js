@@ -20,9 +20,11 @@ function Header(props) {
         <Link to="/">
           <div>Home</div>
         </Link>
+        {/* 
         <Link to="/about">
           <div>ABOUT</div>
         </Link>
+        */}
         <Link to="/projects">
           <div>PROJECTS</div>
         </Link>
