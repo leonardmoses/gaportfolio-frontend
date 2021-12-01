@@ -8,6 +8,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
@@ -23,6 +24,7 @@ function App() {
           <About URL={URL} />
         </div>
         </Route>
+
         {/* 
         <Route path="/about">
           <div className="aboutMainDiv">
@@ -30,6 +32,13 @@ function App() {
           </div>
         </Route>
         */}
+
+        <Route path="/resume">
+          <div className="resumeMainDiv">
+            <Resume URL={URL}/>
+          </div>
+        </Route>
+        
         <Route path="/projects">
           <div className="portMainDiv">
             <Projects URL={URL} />

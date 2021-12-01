@@ -13,8 +13,8 @@ function Footer(props) {
     return (
       <header>
         <nav style={navStyle}>
-        <a href="https://github.com/leonardmoses" target="#">gitHub</a>
-        <a href="https://www.linkedin.com/in/leonard-moses/" target="#2">Linkedin</a>
+        <a href="https://github.com/leonardmoses" target="#">GitHub</a>
+        <a href="https://www.linkedin.com/in/leonard-moses/" target="#2">LinkedIn</a>
         
         </nav>
       </header>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "../about.css";
 
+
 function About(props) {
   // create state to hold about data
   const [about, setAbout] = useState(null);
